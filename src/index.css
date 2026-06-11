@@ -37,3 +37,10 @@ a{
   margin-left: 10px;
   rotate: -90deg;
 }
+.btn.dark{
+  background: #F7B538;
+  color: white;
+}
+.btn.dark img{
+  filter: brightness(0) invert(1);
+}

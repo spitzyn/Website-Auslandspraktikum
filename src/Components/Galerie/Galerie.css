@@ -1,0 +1,15 @@
+.Galerie{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.Fotos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.Fotos img{
+    width: 23%;
+    border-radius: 10px;
+}
