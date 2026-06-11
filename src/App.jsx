@@ -14,6 +14,7 @@ const App = () => {
                 <Title subTitle='Sevilla' title='Orte & Aktivitäten'/>
                 <Sevilla/>
                 <About/>
+                <Title subTitle='Galerie' title='Fotos & Videos vom Aufenthalt in Spanien'/>
             </div>
 
         </div>
