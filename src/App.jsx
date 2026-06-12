@@ -5,6 +5,7 @@ import Sevilla from "./Components/Sevilla/Sevilla.jsx";
 import Title from "./Components/Title/Title.jsx"
 import About from "./Components/About/About.jsx";
 import Galerie from "./Components/Galerie/Galerie.jsx";
+import Firma from "./Components/Firma/Firma.jsx"
 
 const App = () => {
     return (
@@ -17,6 +18,8 @@ const App = () => {
                 <About/>
                 <Title subTitle='Galerie' title='Fotos & Videos vom Aufenthalt in Spanien'/>
                 <Galerie/>
+                <Title subTitle='Firma' title='LabCheap'/>
+                <Firma/>
             </div>
 
         </div>
