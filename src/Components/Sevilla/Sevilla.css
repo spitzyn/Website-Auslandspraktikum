@@ -1,9 +1,25 @@
-.programs{
+.Sevilla{
     margin: 80px auto;
     width: 90%;
+    position: relative;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 200%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    transform: translateX(-25%);
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.slider ul li{
+    flex: 1;
+    list-style: none;
 }
 .program img{
     width: 100%;
@@ -35,4 +51,28 @@
 .program:hover .caption{
     opacity: 1;
     padding-top: 0;
+}
+.next-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #D8572A;
+    z-index: 10;
+    right: -75px;
+}
+.back-btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #D8572A;
+    z-index: 10;
+    left: -70px;
 }
