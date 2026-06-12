@@ -1,4 +1,4 @@
-.hero{
+.home{
     width: 100%;
     min-height: 100vh;
     background-image:
@@ -6,7 +6,7 @@
                     rgba(0, 0, 0, 0.1),
                     #C32F27
             ),
-            url("../../assets/hero.jpg");
+            url("../../assets/home.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -14,15 +14,15 @@
     align-items: center;
     justify-content: center;
 }
-.hero-text{
+.home-text{
     text-align: center;
     max-width: 800px;
 }
-.hero-text h1{
+.home-text h1{
     font-size: 60px;
     font-weight: 600;
 }
-.hero-text p{
+.home-text p{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
