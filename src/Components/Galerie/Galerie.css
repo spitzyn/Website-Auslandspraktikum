@@ -13,3 +13,14 @@
     width: 23%;
     border-radius: 10px;
 }
+
+@media (max-width: 800px){
+    .Fotos{
+        flex-wrap: wrap;
+    }
+    .Fotos img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+
+}
