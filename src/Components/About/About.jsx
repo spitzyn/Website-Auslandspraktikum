@@ -13,6 +13,13 @@ const About = ({setPlayState}) => {
             </div>
             <div className="about-right">
                 <h3>About Auslandspraktikum</h3>
+                <h2>Über das Praktikum</h2>
+                <p>Das Auslandspraktikum bot die Möglichkeit, praktische Erfahrungen
+                    im IT-Bereich zu sammeln und den Arbeitsalltag in einem
+                    internationalen Unternehmen kennenzulernen. Neben der fachlichen
+                    Weiterentwicklung standen auch der kulturelle Austausch und das
+                    Arbeiten in einem neuen Umfeld im Vordergrund.</p>
+                <br/>
                 <h2>Azubi Mobil</h2>
                 <p>Azubi Mob!L macht die duale Ausbildung international: Auszubildende
                     können einen anerkannten Teil ihrer Ausbildung in einem anderen

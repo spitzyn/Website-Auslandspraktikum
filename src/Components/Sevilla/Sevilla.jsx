@@ -7,7 +7,6 @@ import next_icon from '../../assets/arrow.png'
 import back_icon from '../../assets/arrow.png'
 
 const Sevilla = () => {
-
         const slider = useRef();
         let tx = 0;
 
@@ -19,7 +18,7 @@ const Sevilla = () => {
     }
 
     const slideBackward = () => {
-        if(tx > 0){
+        if(tx < 0){
             tx += 25;
         }
         slider.current.style.transform = `translateX(${tx}%)`;
@@ -66,4 +65,5 @@ const Sevilla = () => {
         </div>
     )
 }
+
 export default Sevilla

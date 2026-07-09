@@ -11,14 +11,16 @@ const Firma = () => {
     return (
         <div className='Firma'>
             <div className="kontakt-col">
-                <h3>Platzhalter <img src={info_icon} alt=""/></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Adipisci commodi delectus eligendi excepturi
-                    explicabo fugit illo, incidunt ipsa molestiae nobis,
-                    odit officia quibusdam quidem quo recusandae tenetur
-                    totam ut vitae!</p>
+                <h3>LabCheap <img src={info_icon} alt=""/></h3>
+                <p>LabCheap ist ein Technologieunternehmen mit Sitz
+                    in Sevilla, das sich auf die Entwicklung und
+                    Herstellung von Hardware- und Elektroniklösungen
+                    spezialisiert. Das Unternehmen entwickelt
+                    innovative Produkte für verschiedene technische
+                    Anwendungen und legt dabei Wert auf Qualität,
+                    moderne Technologien und kontinuierliche Weiterentwicklung.</p>
                 <ul>
-                    <li><img src={phone_icon} alt=""/>Atención al Cliente: 955388029 </li>
+                    <li><img src={phone_icon} alt=""/>Telefon: 955388029 </li>
                     <li><img src={location_icon} alt=""/>C/Zoologia 48 <br/>
                         Parque Empresarial Nuevo Torneo <br/>
                         41015 - Sevilla - Spain</li>

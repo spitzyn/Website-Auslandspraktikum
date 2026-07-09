@@ -6,7 +6,7 @@ export const Footer = () => {
         <div className='footer'>
             <p>© 2026 Nele K. All Rights Reserved.</p>
             <ul>
-                <li>Nutzungsbeidngungen</li>
+                <li>Nutzungsbedingungen</li>
                 <li>Datenschutzerklärung</li>
                 <li>Impressum</li>
             </ul>

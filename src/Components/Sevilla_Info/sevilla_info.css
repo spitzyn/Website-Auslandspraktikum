@@ -1,0 +1,67 @@
+.Sevilla{
+    margin: 80px auto;
+    width: 90%;
+    position: relative;
+}
+.sevilla-info{
+    width: 85%;
+    margin: 80px auto 0;
+}
+
+.info-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 70px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.info-block.reverse{
+    flex-direction: row-reverse;
+}
+
+.info-block h2{
+    flex: 1;
+    color: #C32F27;
+    font-size: 32px;
+    position: relative;
+}
+
+.info-block h2::after{
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #D8572A;
+    margin-top: 12px;
+    border-radius: 20px;
+}
+
+.info-block p{
+    flex: 2;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+@media (max-width:768px){
+
+    .info-block,
+    .info-block.reverse{
+        flex-direction: column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .info-block h2::after{
+        margin:12px auto 0;
+    }
+
+    .info-block p{
+        text-align:left;
+    }
+
+}

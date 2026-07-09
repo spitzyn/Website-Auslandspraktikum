@@ -15,7 +15,7 @@ const Galerie = () => {
                 <img src={foto_3} alt=""/>
                 <img src={foto_4} alt=""/>
             </div>
-            <button className='btn dark'>Noch mehr Fotos <img src={arrow} alt=""/></button>
+            {/* <button className='btn dark'>Noch mehr Fotos <img src={arrow} alt=""/></button> */}
         </div>
     )
 }
